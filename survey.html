@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <title>Get Started - Finny - Banking Solution, Comparison and Huge Saves</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!-- In <head> -->
+    <link href="css/nouislider.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- In <body> -->
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="index.html" class="brand-logo"><div id="logo"></div></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#"><i class="small material-icons tooltipped" data-tooltip="My Profile">dashboard</i></a></li>
+          <li><a href="#"><i class="small material-icons tooltipped" data-tooltip="Sign Up">launch</i></a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="#">My Profile</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+
+    <div class="survey parallax-container valign-wrapper slim">
+      <a href="#survey0"></a>
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h5 class="header col s12 light">Are you familiar with one of these banks?</h5>
+          </div>
+        </div>
+      </div>
+      <div class="parallax"><img src="img/background1.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+
+    <div class="survey container">
+      <div class="section">
+        <div class="row">
+          <form class="col s12">
+            <!--   bank choice row 1   -->
+            <div class="row">
+              <div class="col s12 m4">
+                <p>
+                  <input type="checkbox" id="chk_boa" />
+                  <label for="chk_boa"><img src="img/bank1.png" alt="Bank of America"></label>
+                </p>
+              </div>
+
+              <div class="col s12 m4">
+                <p>
+                  <input type="checkbox" id="chk_chase" />
+                  <label for="chk_chase"><img src="img/bank2.png" alt="JP Morgan Chase"></label>
+                </p>
+              </div>
+
+              <div class="col s12 m4">
+                <p>
+                  <input type="checkbox" id="chk_citi" />
+                  <label for="chk_citi"><img src="img/bank3.png" alt="Citigroup"></label>
+                </p>
+              </div>
+            </div>
+
+            <!--   bank choice row 2   -->
+            <div class="row">
+              <div class="col s12 m4">
+                <p>
+                  <input type="checkbox" id="chk_wf" />
+                  <label for="chk_wf"><img src="img/bank4.png" alt="Wells Fargo"></label>
+                </p>
+              </div>
+
+              <div class="col s12 m4">
+                <p>
+                    <input type="checkbox" id="chk_nym" />
+                    <label for="chk_nym"><img src="img/bank5.png" alt="Bank of New York Mellon"></label>
+                </p>
+              </div>
+
+              <div class="col s12 m4">
+                <p>
+                    <input type="checkbox" id="chk_hsbc" />
+                    <label for="chk_hsbc"><img src="img/bank6.png" alt="HSBC"></label>
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <a href="#survey1" class="waves-effect waves-light light-blue darken-1 btn survey_btn right" id="survey_btn1">Continue</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="survey1" class="survey parallax-container valign-wrapper slim" style="display:none">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h5 class="header col s12 light">Tell us a bit about yourself</h5>
+          </div>
+        </div>
+      </div>
+      <div class="parallax"><img src="img/background5.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+
+    <div class="survey container" style="display:none">
+      <div class="section">
+
+
+
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <select id="prof_sel">
+                  <option value="1">Student</option>
+                  <option value="2">Worker</option>
+                  <option value="3">Hacker</option>
+                </select>
+                <label>Profession</label>
+              </div>
+            </div>
+            <div class="row">
+              <a href="#survey2" class="waves-effect waves-light light-blue darken-1 btn survey_btn right" id="survey_btn2">Continue</a>
+            </div>
+          </form>
+        </div>
+
+
+
+
+      </div>
+    </div>
+
+
+
+
+
+    <div id="survey2" class="survey parallax-container valign-wrapper slim" style="display:none">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h5 class="header col s12 light">Where do you live?</h5>
+          </div>
+        </div>
+      </div>
+      <div class="parallax"><img src="img/background2.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+
+    <div class="survey container" style="display:none">
+      <div class="section">
+
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="address" placeholder="Address" type="text" class="validate">
+              </div>
+              <div class="center">
+                <img id="fake_maps" src="img/maps.png" alt="maps">
+                <h5 id="fake_maps_sorry" class="light" style="display: none;">Sorry, we can't locate your address. However, you may continue to next step.</h5>
+              </div>
+            </div>
+            <div class="row">
+              <a href="#survey3" class="waves-effect waves-light light-blue darken-1 btn survey_btn right" id="survey_btn3">Continue</a>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <div id="survey3" class="survey parallax-container valign-wrapper slim" style="display:none">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h5 class="header col s12 light">How much is your monthly income?</h5>
+          </div>
+        </div>
+      </div>
+      <div class="parallax"><img src="img/background3.jpg" alt="Unsplashed background img 3"></div>
+    </div>
+
+    <div class="survey container" style="display:none">
+      <div class="section">
+
+
+        <br>
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div id="rng_income"></div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="input-field col s12">
+                <input type="checkbox" id="chk_noincome" />
+                <label for="chk_noincome">I would not like to provide.</label>
+              </div>
+            </div>
+            <div class="row">
+              <a href="result.html" class="waves-effect waves-light light-blue darken-1 btn survey_btn right" id="survey_btn4">Complete</a>
+            </div>
+          </form>
+        </div>
+
+
+
+
+      </div>
+    </div>
+
+
+    <footer class="page-footer light-blue darken-1">
+      <div class="footer-copyright">
+        <div class="container">
+        Made by <a class="blue-text text-lighten-3" href="http://fan6.slack.com">Fan6</a> for FinTech 2015.
+        </div>
+      </div>
+    </footer>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/wNumb.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/survey.js"></script>
+  </body>
+</html>
